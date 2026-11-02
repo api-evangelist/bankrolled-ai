@@ -1,4 +1,4 @@
-# bankrolled-ai
+# Bankrolled.ai
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,110 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-bankrolled-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://bankrolled.ai/
+Bankrolled.ai provides a free, regulator‑sourced API hub for AI agents to access deposit‑insurance limits, savings, retirement and related financial limits across multiple jurisdictions. It offers a Machine‑Callable Protocol (MCP) endpoint and a REST API that return up‑to‑date limits with citations to official regulator sources. The service is open, requires no API key, and includes tools for money‑fact queries, scheme lookups, cross‑border checks, and pricing lists. Documentation is available via llms.txt and a GitHub docs repository.
+
+**Areas:** Finance · AI · Deposit-Insurance · Agents · Regulatory
+
+## Bankrolled.ai on APIs.io
+
+Everything profiled for Bankrolled.ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bankrolled-ai/](https://apis.io/providers/bankrolled-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Bankrolled AI MCP](https://apis.io/apis/bankrolled-ai/bankrolled-ai-mcp/) — Free MCP server providing deposit‑insurance limits. Endpoint: https://bankrolled.ai/mcp
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bankrolled Ai Authentication](https://apis.io/security/bankrolled-ai/bankrolled-ai-authentication/)
+- [Bankrolled Ai Domain Security](https://apis.io/security/bankrolled-ai/bankrolled-ai-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Bankrolled Ai Scopes](https://apis.io/scopes/bankrolled-ai/bankrolled-ai-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Bankrolled Ai Plans Pricing](https://apis.io/plans/bankrolled-ai/bankrolled-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Bankrolled Ai Rate Limits](https://apis.io/rate-limits/bankrolled-ai/bankrolled-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bankrolled.ai/)
+- [Documentation](https://bankrolled.ai/llms.txt)
+- [API reference](https://bankrolled.ai/wp-json/bankrolled-ai/v1)
+- [Terms of service](https://bankrolled.ai/terms/)
+- [Privacy policy](https://bankrolled.ai/privacy/)
+- [GitHub](https://github.com/Bankrolled)
+
+## API Evangelist rating
+
+**Kin Score 18.0** — emerging · rubric 0.26.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 21.1 |
+
+**Agent readiness 5.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 25.4** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bankrolled-ai/](https://apis.io/providers/bankrolled-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bankrolled.ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bankrolled-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
